@@ -57,7 +57,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image alt="a" src={deved} layout="fill" objectFit="cover" />
             </div>
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
@@ -79,8 +79,8 @@ export default function Home() {
         <div className="text-center mb-11">
         <h1 className="font-burtons text-xl pb-3 text-teal-600">coding profile</h1>
           <div className="text-center flex justify-center text-5xl gap-5">
-            <a href="https://www.hackerrank.com/profile/abhilashvm44"><Image width={45}  height={45} src={hackerrank} style={darkMode?{filter: 'invert(60%)'}:{}} /></a>
-            <a href="https://leetcode.com/abhilashvm44/"><Image width={45} height={43} src={leetcode} style={darkMode?{filter: 'invert(70%)'}:{}} /></a>
+            <a href="https://www.hackerrank.com/profile/abhilashvm44"><Image alt="hack" width={45}  height={45} src={hackerrank} style={darkMode?{filter: 'invert(60%)'}:{}} /></a>
+            <a href="https://leetcode.com/abhilashvm44/"><Image alt="leet" width={45} height={43} src={leetcode} style={darkMode?{filter: 'invert(70%)'}:{}} /></a>
           </div>
         </div>
         </section>
@@ -97,16 +97,16 @@ export default function Home() {
           <div className="">
             <h3 className=" lg:text-left sm:text-center text-3xl py-1 dark:text-white ">Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Welcome to my portfolio! Here you'll find a selection of projects that I've worked on, showcasing my skills, creativity, and passion for Computer Science.
+            Welcome to my portfolio, Here you will find a selection of projects that I have worked on, showcasing my skills, creativity, and passion for Computer Science.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Each project represents a unique journey, from conception to execution, where I've applied my expertise to solve real-world problems and deliver impactful solutions. Whether it's designing intuitive user interfaces, crafting robust backend systems, or implementing cutting-edge technologies, I've poured my heart and soul into each endeavor.
+            Each project represents a unique journey, from conception to execution, where I have applied my expertise to solve real-world problems and deliver impactful solutions. Whether it is designing intuitive user interfaces, crafting robust backend systems, or implementing cutting-edge technologies, I have poured my heart and soul into each endeavor.
             </p>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               {/* <img src="../public/hackerrank.svg" alt="GeeksforGeeks logo"/> */}
-              <Image src={code} width={100} height={100} />
+              <Image alt="bus" src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
               Online Tourist Bus Booking System(<a href="https://github.com/ABHILASHVM/Tourist-Bus-Booking-System.git" className="text-teal-600 text-3"> GitHub </a>)
               </h3>
@@ -119,7 +119,7 @@ export default function Home() {
               </h4>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image alt="nlp" src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Neural Machine Translation System
               </h3>
@@ -140,15 +140,16 @@ export default function Home() {
           <div>
             <h3 className="lg:text-left sm:text-center text-3xl py-1 dark:text-white ">Certifications</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Welcome to the certificates section of my portfolio! Here, I'm thrilled to share with you some of the certifications and credentials I've earned throughout my journey.
+            Welcome to the certificates section of my portfolio, Here, I am thrilled to share with you some of the certifications and credentials I have earned throughout my journey.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Each certification represents not only the knowledge and skills I've acquired but also the countless hours of hard work, dedication, and determination invested in my professional growth. From mastering industry-standard tools and frameworks to earning specialized qualifications in niche domains, these certificates showcase my versatility and adaptability in tackling diverse challenges.
+            Each certification represents not only the knowledge and skills I have acquired but also the countless hours of hard work, dedication, and determination invested in my professional growth. From mastering industry-standard tools and frameworks to earning specialized qualifications in niche domains, these certificates showcase my versatility and adaptability in tackling diverse challenges.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
               <Image
+              alt="certi"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"77%"}
@@ -158,6 +159,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
+                alt="certi"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"77%"}
@@ -167,6 +169,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
+                alt="certi"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"77%"}
@@ -176,6 +179,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
+                alt="certi"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"77%"}
@@ -185,6 +189,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
+                alt="certi"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"77%"}
@@ -194,6 +199,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
+                alt="certi"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"77%"}
@@ -203,6 +209,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
+                alt="certi"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"77%"}
@@ -212,6 +219,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
+                alt="certi"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"77%"}
@@ -221,6 +229,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
+                alt="certi"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"50%"}
