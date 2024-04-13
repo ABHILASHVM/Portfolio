@@ -90,16 +90,16 @@ export default function Home() {
         </section>
         <section>
           <div className="pb-8">
-            <h3 className="lg:text-left sm:text-center text-3xl py-1 dark:text-white ">Achievements</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Problem Solving (Intermediate) certification in Hackerrank (<a href="https://www.hackerrank.com/certificates/f15210ace519" className="text-teal-600">View Certificate</a>).
+            <h3 className="lg:text-left sm:text-center text-3xl py-1 dark:text-white text-center">Achievements</h3>
+            <p className="text-md py-2 leading-7 text-gray-800 dark:text-gray-200">
+              &gt;&gt;&gt; Problem Solving (Intermediate) certification in Hackerrank (<a href="https://www.hackerrank.com/certificates/f15210ace519" className="text-teal-600">View Certificate</a>).
             </p>
-            <p>Golden badges for Python, Problem Solving and 10 Days of JS form HackerRank
+            <p className="text-md py-2 leading-7 text-gray-800 dark:text-gray-200">&gt;&gt;&gt; Golden badges for Python, Problem Solving and 10 Days of JS form HackerRank
             </p>
 
           </div>
           <div className="">
-            <h3 className=" lg:text-left sm:text-center text-3xl py-1 dark:text-white ">Projects</h3>
+            <h3 className=" lg:text-left sm:text-center text-3xl py-1 dark:text-white text-center">Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Welcome to my portfolio, Here you will find a selection of projects that I have worked on, showcasing my skills, creativity, and passion for Computer Science.
             </p>
