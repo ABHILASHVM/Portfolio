@@ -41,7 +41,7 @@ export default function Home() {
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
+          <nav className="pt-10 lg:pb-10 mds:pb-10 mb-12 flex justify-between dark:text-white">
             <h1 className="font-burtons text-xl">abhilashvm</h1>
             <ul className="flex items-center">
               <li>
