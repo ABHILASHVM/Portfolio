@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+        <script src="https://cdn.botpress.cloud/webchat/v1/inject.js" async></script>
         <script src="https://mediafiles.botpress.cloud/cbcc0236-c5ab-4c14-9bc0-1d8d239ceb72/webchat/config.js" defer></script>
 
 
