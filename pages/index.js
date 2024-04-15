@@ -106,7 +106,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <div className=" bg-teal-50 text-center shadow-lg p-10 rounded-xl my-10   flex-1">
               {/* <img src="../public/hackerrank.svg" alt="GeeksforGeeks logo"/> */}
               <Image alt="bus" src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
@@ -120,7 +120,7 @@ export default function Home() {
               <h4 ><span className="py-4 text-teal-600">Backend:</span> NodeJS(ExpressJS),MongoDB
               </h4>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="bg-teal-50 text-center shadow-lg p-10 rounded-xl my-10  flex-1">
               <Image alt="nlp" src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Neural Machine Translation System
@@ -140,7 +140,7 @@ export default function Home() {
         </section>
         <section className="py-10">
           <div>
-            <h3 className="lg:text-left sm:text-center text-3xl py-1 dark:text-white ">Certifications</h3>
+            <h3 className="lg:text-left text-center text-3xl py-1 dark:text-white ">Certifications</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Welcome to the certificates section of my portfolio, Here, I am thrilled to share with you some of the certifications and credentials I have earned throughout my journey.
             </p>
@@ -148,7 +148,7 @@ export default function Home() {
               Each certification represents not only the knowledge and skills I have acquired but also the countless hours of hard work, dedication, and determination invested in my professional growth. From mastering industry-standard tools and frameworks to earning specialized qualifications in niche domains, these certificates showcase my versatility and adaptability in tackling diverse challenges.
             </p>
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <div className="flex flex-col gap-10 pt-10 pb-20 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
               <Image
                 alt="certi"
@@ -229,6 +229,9 @@ export default function Home() {
                 src={web8}
               />
             </div>
+           
+          </div>
+          <h3 className=" font-burtons  lg:text-left text-center text-3xl py-1 dark:text-white ">Badges</h3>
             <div className="basis-1/3 flex-1">
               <Image
                 alt="certi"
@@ -239,7 +242,6 @@ export default function Home() {
                 src={badges}
               />
             </div>
-          </div>
         </section>
       </main>
     </div>
