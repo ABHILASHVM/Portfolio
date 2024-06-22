@@ -51,7 +51,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://www.canva.com/design/DAFtRg1xMy4/IiEvApVnAlBTT-enh77KQw/view?utm_content=DAFtRg1xMy4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                  href="https://www.canva.com/design/DAGHiVdRIbc/8WCpFRG3EdC2ZKs--p07vQ/view?utm_content=DAGHiVdRIbc&utm_campaign=designshare&utm_medium=link&utm_source=editor"
                 >
                   Resume
                 </a>
